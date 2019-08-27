@@ -1,0 +1,7 @@
+<launch>
+	
+	<node name = "laserhandle" pkg="vlo" type="laserhandle" output="screen">
+	</node>
+	<node name = "lidtocam" pkg = "vlo" type = "lidtocam" output = "screen">
+	</node>
+</launch>
